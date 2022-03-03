@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Website with a contact Form 01</title>
+    <title>Formulario de contacto</title>
     <link rel="stylesheet" href="main.css">
     <!-- GOOGLE FONTs -->
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
@@ -21,7 +21,7 @@
         <div class="contact-wrapper animated bounceInUp">
             <div class="contact-form">
                 <h3>Contactanos</h3>
-                <form action="">
+                <form action="enviar.php" method="post">
                     <p>
                         <label>Nombre completo</label>
                         <input type="text" name="fullname">
@@ -43,9 +43,8 @@
                         <textarea name="message" rows="3"></textarea>
                     </p>
                     <p class="block">
-                        <button>
-                            Enviar
-                        </button>
+                        <input type="submit" value="ENVIAR" id="boton">
+
                     </p>
                 </form>
             </div>
@@ -57,7 +56,7 @@
                     <li><i class="fas fa-envelope-open-text"></i> info@crufty.com</li>
                 </ul>
                 <p>aca tenes varias opciones de contacto</p>
-                <p>https://cruftyy.github.io/test-crufty3</p>
+                <p>c.thecrufty.tk</p>
             </div>
         </div>
 
